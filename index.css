@@ -1,0 +1,22 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.notification-icon {
+    width: 2rem;
+}
+.user-avatar {
+    width: 2.5rem;
+    border-radius: 100%;
+}
+
+.access-menu {
+display: flex;
+align-items: center;
+}
+
+h1 {
+    color: red;
+}
