@@ -2,6 +2,47 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.text-bold {
+font-weight: bold;
+}
+
+.text-red {
+    color: red;
+    font-weight: bold;
+}
+
+.age-restriction {
+    border: 1px solid black;
+    border-radius: 0.3rem;
+    padding: 4px;
+    margin: 0 1rem;
+}
+
+.btn {
+    background: red;
+    color: white;
+    display: inline-block;
+}
+
+.btn-xl {
+    font-size: 1.5rem;
+    border-radius: 0.7rem;
+    padding: 1rem 3rem;
+    margin: 1rem 0;
+}
+
+.btn-xl i {
+    margin-left: -2rem;
+    margin-right: 1rem;
+}
+
+.btn-l {
+    font-size: 1.2rem;
+    border-radius: 0.5rem;
+    padding: 0.9rem 1.4rem;
+    margin: 0.9rem 0;
+}
+
 header {
     display: flex;
     align-items: center;
@@ -62,4 +103,21 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+.rating-container {
+    color: red;
+}
+
+main h2 {
+    font-size: 2rem;
+    margin: 1.5rem 0;
+}
+
+.details-container {
+    margin: 1vh 0;
+}
+
+.description {
+    width: 50%;
 }
