@@ -26,8 +26,8 @@ font-weight: bold;
 
 .btn-xl {
     font-size: 1.5rem;
-    border-radius: 0.7rem;
     padding: 1rem 3rem;
+    border-radius: 0.7rem;
     margin: 1rem 0;
 }
 
@@ -38,9 +38,14 @@ font-weight: bold;
 
 .btn-l {
     font-size: 1.2rem;
+    padding: 0.9rem 2.5rem;
     border-radius: 0.5rem;
-    padding: 0.9rem 1.4rem;
     margin: 0.9rem 0;
+}
+
+.btn-l i{
+    margin-left: -1.8rem;
+    margin-right: 0.8rem;
 }
 
 header {
@@ -53,14 +58,14 @@ header h1, header div {
     width: 30%;
 }
 
-header nav a {
+nav a {
     margin: 0 1rem;
     text-decoration: none;
     color: rgb(59, 59, 59);
 
 }
 
-header nav a:hover {
+nav a:hover {
 color: red;
 }
 
@@ -103,6 +108,7 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: flex-start;
 }
 
 .rating-container {
@@ -120,4 +126,74 @@ main h2 {
 
 .description {
     width: 50%;
+}
+
+/* section */
+
+.section {
+    margin: 1rem;
+    margin-bottom: 3rem;
+}
+
+.section-content, .section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 4rem;
+}
+
+.card {
+    width: 30%;
+    aspect-ratio: 5/3;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 2rem;
+}
+
+.card h4 {
+    font-size: 2rem;
+    margin: 1.5rem 0;
+}
+
+.card .age-restriction {
+    margin-left: 0;
+}
+
+/* footer */
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    align-items: flex-start;
+    margin: 1rem;
+    margin-bottom: 10rem;
+}
+
+footer nav {
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 1rem;
+}
+
+footer p:nth-child(n+1) {
+    margin-top: 0;
+}
+
+footer img {
+    height: 3rem;
+   
+}
+
+footer div:first-child {
+    flex-basis: 20%;
+    flex-grow: 1;
+}
+
+
+footer nav a:first-child {
+    margin-left: 0;
 }
